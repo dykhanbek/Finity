@@ -1,0 +1,462 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #1D293F;
+}
+
+/* navbar */
+a {
+	text-decoration: none;
+
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	gap: 1rem;
+
+}
+
+nav {
+	padding: 1rem;
+	width: 100%;
+}
+
+.box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.box li {
+	display: inline-block;
+}
+
+.box a {
+	display: inline-block;
+}
+
+.trial {
+	background-color: #0F53FA;
+	padding: 1rem;
+	border-radius: .5rem;
+	color: #E9F7FE;
+}
+
+.trial a {
+	color: #E9F7FE;
+}
+
+.logo {
+	height: min-content;
+}
+
+/* header */
+h1 {
+	font-size: 58px;
+	font-weight: 700;
+
+}
+
+p {
+	color: #7C8087;
+	font-size: 21px;
+	max-width: 540px;
+}
+
+header {
+	height: 100vh;
+	background-image: url('./src/BG.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	margin-top: 60px;
+}
+
+.header-h1 {
+	font-size: 58px;
+	font-weight: 700;
+	max-width: 600px;
+}
+
+.header-p {
+	margin-top: 22px;
+	margin-bottom: 22px;
+	color: #7C8087;
+	font-size: 21px;
+	max-width: 540px;
+}
+
+.header-div {
+	margin-top: 10px;
+	color: #8C97AC;
+	font-size: 13px;
+}
+
+.cards {
+	margin-top: 64px;
+	display: flex;
+	gap: 6%;
+	width: 100%;
+}
+
+.card {
+	width: 350px;
+	background-color: #F7F8FA;
+	border-radius: 20px;
+	display: flex;
+	padding: 1rem;
+}
+
+.card img {
+	width: 30%;
+	height: min-content;
+}
+
+.card .info {
+	width: auto;
+}
+
+.card .info .title {
+	font-size: 21px;
+	font-weight: 700;
+}
+
+.card .info .description {
+	margin-top: 6px;
+	font-size: 1rem;
+	color: #7C8087;
+	line-height: 28px;
+}
+
+.button {
+	margin-top: 81px;
+	background-color: #0F53FA;
+	padding: 1rem;
+	border-radius: .5rem;
+	color: #E9F7FE;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+
+.block {
+	height: 800px;
+}
+
+.emails-h2 {
+	font-size: 48px;
+	font-weight: 700;
+	width: 500px;
+	line-height: 48px;
+	margin-bottom: 25px;
+}
+
+.emails-p {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 32px;
+	margin-bottom: 46px;
+}
+
+.tag {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+	font-weight: 700;
+	margin-bottom: 1rem;
+}
+
+.tag span {
+	background-color: #FFD166;
+	padding: 3px;
+	border-radius: 5px;
+	font-weight: 700;
+	font-size: 13px;
+}
+
+.download {
+	display: flex;
+	width: 230px;
+	padding: 1rem;
+	border-radius: 10px;
+	align-items: center;
+	text-align: left;
+	gap: 1rem;
+}
+
+
+
+
+
+.download img {
+	height: 100%;
+}
+
+
+/*  tweets  */
+
+
+.tweets {
+	display: flex;
+	gap: 2rem;
+	flex-wrap: wrap;
+	width: 60%;
+	margin-top: 72px;
+}
+
+.tweet {
+	background-color: #ffff;
+	padding: 20px;
+	border-radius: 15px;
+	text-align: left;
+	border: 1px solid #e6e6e6;
+}
+
+.tweet .wrapper {
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+
+.tweet .avatar {
+	width: 41px;
+	display: inline-block;
+}
+
+
+
+.tweet h3 {
+	font-weight: 500;
+	font-size: 18px;
+	color: #1D293F;
+	display: inline-block;
+}
+
+.tweet p {
+	width: 310px;
+	font-weight: 400;
+	font-size: 16px;
+	color: #7C8087;
+	margin-top: 1rem;
+}
+
+.tweet h4 {
+	font-weight: 400;
+	font-size: 13px;
+	color: #7C8087;
+	display: inline-block;
+
+}
+
+.twitter {
+	width: 16px;
+	height: 13px;
+	margin-left: auto;
+}
+
+/* pricing */
+
+.flex-row-2 {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 137px;
+}
+
+.container {
+	max-width: 80%;
+	margin-inline: auto;
+}
+
+.flex-row-2 h1 {
+
+	width: 460px;
+	font-weight: 700;
+	font-size: 48px;
+	align-items: center;
+}
+
+.btn-yellow {
+	font-weight: 500;
+	font-size: 16px;
+	text-align: center;
+	padding: 18px 50px;
+	border: none;
+	background-color: #FFD166;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	margin-right: -4px;
+	font-weight: 700;
+}
+
+.btn-white {
+	font-weight: 500;
+	font-size: 16px;
+	text-align: center;
+	padding: 15px 47px;
+	border: 3px #FFD166 solid;
+	background-color: #FFFFFF;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	font-weight: 700;
+}
+
+.flex-col-3 {
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+}
+
+.price {
+	border-top: 1px #ECEFF4 solid;
+	display: flex;
+	justify-content: space-between;
+	padding: 2rem 0;
+	align-items: center;
+}
+
+.price h3 {
+	font-weight: 700;
+	font-size: 21px;
+	width: 100px;
+}
+
+.price ul {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	justify-content: left;
+}
+
+.price ul li {
+	font-weight: 700;
+	font-size: 18px;
+	text-align: left;
+}
+
+.price h2 {
+	font-weight: 700;
+	font-size: 58px;
+}
+
+.price p {
+	font-weight: 400;
+	font-size: 16px;
+	color: #7C8087;
+	width: 150px;
+}
+
+.btn-ghost {
+	font-weight: 700;
+	font-size: 16px;
+	text-align: center;
+	padding: 18px 21px;
+	border-radius: 10px;
+	border: 1px #E2E4E8 solid;
+	display: inline-block;
+}
+
+footer {
+	background-color: #1D293F;
+
+}
+
+.main-footer {
+	padding-top: 100px;
+	display: flex;
+
+}
+
+.flex-row-4 {
+	padding: 140px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-col {
+	width: 30%;
+}
+
+.main-col p {
+	margin-top: 1rem;
+	font-weight: 400;
+	font-size: 16px;
+	color: #8C97AC;
+	width: 300px;
+	line-height: 25px;
+}
+
+.main-col button {
+	margin-top: 2rem;
+	font-weight: 500;
+	font-size: 13px;
+	color: #E9F7FE;
+	padding: 13px 15px;
+	background-color: #0F53FA;
+	border-radius: 5px;
+	border: none;
+}
+
+.col {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.col h4 {
+	color: #8C97AC;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.col div {
+	color: #E9F7FE;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.number {
+	color: #FFD166;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.mail {
+	color: #FFD166;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.links {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 21px 0;
+}
+
+.pricing {
+	background-image: url('./src/Shape\ 1.png');
+	background-repeat: no-repeat;
+	background-position: 100% 150%;
+}
+
+footer {
+	background-image: url('./src/Shape\ 1.png'), url('./src/Oval\ Copy.png');
+	background-repeat: no-repeat , no-repeat;
+	background-position: 100% -365px , 0 100%;
+
+
+}
