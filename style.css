@@ -81,7 +81,7 @@ header {
 	background-image: url('./src/BG.png');
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 0 center;
+	background-position: center -30%;
 }
 
 .flex {
