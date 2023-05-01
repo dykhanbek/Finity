@@ -8,6 +8,13 @@
 	color: #1D293F;
 }
 
+
+html {
+	background-image: url('./src/Shape\ 1.png');
+	background-repeat: no-repeat;
+	background-position: 100% 90%;
+	z-index: 100;
+}
 /* navbar */
 a {
 	text-decoration: none;
@@ -74,7 +81,7 @@ header {
 	background-image: url('./src/BG.png');
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 0 0;
+	background-position: 0 center;
 }
 
 .flex {
@@ -108,7 +115,7 @@ header {
 .cards {
 	margin-top: 64px;
 	display: flex;
-	gap: 6%;
+	justify-content:space-evenly;
 	width: 100%;
 }
 
@@ -154,15 +161,17 @@ header {
 
 
 .block {
-	height: 800px;
+	width: 98%;
+	float: right;
 }
 
 .emails-h2 {
-	font-size: 48px;
+	font-size: 40px;
 	font-weight: 700;
-	width: 500px;
+	width: 90%;
 	line-height: 48px;
 	margin-bottom: 25px;
+	text-align: center;
 }
 
 .emails-p {
@@ -170,6 +179,7 @@ header {
 	font-size: 18px;
 	line-height: 32px;
 	margin-bottom: 46px;
+	width: 90%;
 }
 
 .tag {
@@ -211,11 +221,18 @@ header {
 
 
 .tweets {
-	display: flex;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: space-around;
 	gap: 2rem;
-	flex-wrap: wrap;
-	width: 60%;
+	width: 70%;
 	margin-top: 72px;
+}
+
+@media (max-width: 1150px) {
+	.tweets {
+		grid-template-columns: 1fr 1fr;
+	}
 }
 
 .tweet {
@@ -266,6 +283,12 @@ header {
 	width: 16px;
 	height: 13px;
 	margin-left: auto;
+}
+
+.reviews {
+	background-image: url('./src/background.png');
+	background-position: 0 0;
+	padding: 130px 0;
 }
 
 /* pricing */
@@ -447,16 +470,12 @@ footer {
 	padding: 21px 0;
 }
 
-.pricing {
-	background-image: url('./src/Shape\ 1.png');
-	background-repeat: no-repeat;
-	background-position: 100% 150%;
-}
+
 
 footer {
-	background-image: url('./src/Shape\ 1.png'), url('./src/Oval\ Copy.png');
-	background-repeat: no-repeat , no-repeat;
-	background-position: 100% -365px , 0 100%;
+	background-image:  url('./src/Oval\ Copy.png');
+	background-repeat:  no-repeat;
+	background-position:  0 100%;
 
 
 }
