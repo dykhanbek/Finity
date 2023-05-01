@@ -168,10 +168,12 @@ header {
 .emails-h2 {
 	font-size: 40px;
 	font-weight: 700;
-	width: 90%;
+	width: 60%;
 	line-height: 48px;
 	margin-bottom: 25px;
 	text-align: center;
+	text-align: left;
+	
 }
 
 .emails-p {
