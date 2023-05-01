@@ -293,10 +293,13 @@ header {
 
 /* pricing */
 
+.pricing {
+	padding: 137px 0;
+}
+
 .flex-row-2 {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 137px;
 }
 
 .container {
