@@ -15,9 +15,11 @@ html {
 	background-position: 100% 90%;
 	z-index: 100;
 }
+
 /* navbar */
 a {
 	text-decoration: none;
+	cursor: pointer;
 
 }
 
@@ -48,6 +50,15 @@ nav {
 	display: inline-block;
 }
 
+.nav-links {
+	align-items: center
+}
+
+.nav-links li {
+	cursor: pointer;
+
+}
+
 .trial {
 	background-color: #0F53FA;
 	padding: 1rem;
@@ -61,6 +72,7 @@ nav {
 
 .logo {
 	height: min-content;
+	cursor: pointer;
 }
 
 /* header */
@@ -115,7 +127,7 @@ header {
 .cards {
 	margin-top: 64px;
 	display: flex;
-	justify-content:space-evenly;
+	justify-content: space-evenly;
 	width: 100%;
 }
 
@@ -157,6 +169,7 @@ header {
 	display: flex;
 	align-items: center;
 	gap: 5px;
+	cursor: pointer;
 }
 
 
@@ -173,7 +186,7 @@ header {
 	margin-bottom: 25px;
 	text-align: center;
 	text-align: left;
-	
+
 }
 
 .emails-p {
@@ -289,8 +302,9 @@ header {
 
 .reviews {
 	background-image: url('./src/background.png');
-	background-position: 0 0;
-	padding: 130px 0;
+	background-repeat: no-repeat;
+	background-position: top;
+
 }
 
 /* pricing */
@@ -318,6 +332,7 @@ header {
 }
 
 .btn-yellow {
+	cursor: pointer;
 	font-weight: 500;
 	font-size: 16px;
 	text-align: center;
@@ -331,6 +346,7 @@ header {
 }
 
 .btn-white {
+	cursor: pointer;
 	font-weight: 500;
 	font-size: 16px;
 	text-align: center;
@@ -373,6 +389,7 @@ header {
 	font-weight: 700;
 	font-size: 18px;
 	text-align: left;
+	font-weight: 400;
 }
 
 .price h2 {
@@ -395,6 +412,7 @@ header {
 	border-radius: 10px;
 	border: 1px #E2E4E8 solid;
 	display: inline-block;
+	cursor: pointer;
 }
 
 footer {
@@ -454,6 +472,7 @@ footer {
 	color: #E9F7FE;
 	font-weight: 400;
 	font-size: 16px;
+	cursor: pointer;
 }
 
 .number {
@@ -478,9 +497,9 @@ footer {
 
 
 footer {
-	background-image:  url('./src/Oval\ Copy.png');
-	background-repeat:  no-repeat;
-	background-position:  0 100%;
+	background-image: url('./src/Oval\ Copy.png');
+	background-repeat: no-repeat;
+	background-position: 0 100%;
 
 
 }
